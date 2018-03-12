@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
   url;
 
 
-  constructor(private msgService: MessagingService, private router: Router) {
+  constructor(private msgService: MessagingService, private public: Router) {
   }
 
   ngOnInit() {
