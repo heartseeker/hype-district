@@ -1,10 +1,26 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { MessagingService } from './messaging.service';
+import { ActivatedRoute, Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'app';
+export class AppComponent implements OnInit {
+
+  title = 'Hello Angular';
+  url;
+
+
+  constructor(private msgService: MessagingService, private router: Router) {
+  }
+
+  ngOnInit() {
+  }
+
+  subscribe() {
+  }
+
 }

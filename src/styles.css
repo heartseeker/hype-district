@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./assets/css/animate.css";
+@import url("http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import "./assets/css/main.css";
+@import "./assets/css/prettyPhoto.css";
+@import "./assets/css/price-range.css";
+@import "./assets/css/responsive.css";
+
